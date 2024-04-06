@@ -1,0 +1,179 @@
+h1{
+  color: white;
+}
+
+header{
+  background: #2F4F4F;
+  color: black;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+nav ul{
+  margin: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
+  background-color: white ;
+  list-style: none;
+  width: 95%;
+  text-align: center;
+
+}
+
+nav li{
+  display: inline-flex;
+  margin: 0 30px;
+}
+
+
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  width: 190px;
+}
+
+
+nav a:hover{
+ color: black;
+ background-color:  #5F9EA0;
+}
+
+body{
+  font-family: "Bitter", serif;
+  background: #8FBC8F;
+}
+
+header h1{
+  font-family: "Bitter", serif;
+
+}
+
+header nav{
+font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main{
+   font-family: "Bitter", serif;
+   max-width: 1000px;
+   margin: 20px auto;
+   padding: 0 20px;
+   background-color: white;
+}
+
+
+
+.lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Para hacer referencia a las clases debemos asignar un punto(.)
+al inicio del nombre de la clase*/
+.productos{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+
+.productos:Hover{
+  box-shadow: 0 0 30px rgba(100, 0, 0, 0.8);
+}
+
+.productos img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+
+.productos:hover img{
+  transform: scale(1.1);
+
+}
+
+.productos button{
+  display: block;
+  margin: 0 auto;
+  background-color: #2F4F4F;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: backround-color 0.3s ease-in-out;
+}
+
+.productos button:hover{
+  background-color: #008000;
+}
+
+footer{
+  background-color: #2F4F4F ;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "Bitter";
+  font-size: 18px;
+
+}
+
+.links{
+  width: 400px;
+}
+
+
+.links ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.links li a{
+  text-decoration: none;
+  color: white;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.redes {
+  width: 300px;
+}
+
+.redes img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.redes li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes img:hover{
+  transform: scale(1.1);
+} 
+
+.contacto {
+  width: 200px;
+  text-align: right;
+  font-size:16px ;
+  color: white;
+}
